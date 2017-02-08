@@ -1,0 +1,18 @@
+body{
+    background-color: #DE9DFF; 
+    width:"800px"; 
+}
+
+h1 { 
+    background-color: #DDEBFF; 
+}
+figcaption { 
+    font-style:italic;
+background-color: #5E5D53;
+}
+figure {
+    width: "600px"; margin: auto;
+}
+img { 
+    width:"600px";
+}
