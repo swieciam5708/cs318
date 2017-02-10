@@ -4,7 +4,9 @@ width: 200px;
 border-style: none;
 border-color: aliceblue;
 border-width:thin;
-border-radius: 
+border-radius:thin;
+vertical-align: top;
+
 }
 .card img { 
 width: 100%;
@@ -39,4 +41,9 @@ background-color: darksalmon;
 }
 #card6 {
     background-color: firebrick;
+}
+.favorite {
+    border-style: dotted;
+    border-width: thick;
+    border-color: black;
 }
