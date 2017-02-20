@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    background-color: azure;
+}
+div { 
+display: inline-block;
+}
+.stamp {
+width: 300px;
+height:300px;
+margin: 10px;
+border-width: 4px;
+border-style: dashed;
+border-color: darkolivegreen;
+box-shadow: 10px 10px 20px grey;
+
+}
+#colombia {
+    background-image: url(colombiaflag.gif), url(colombiaflag.jpg);
+    background-position: right top, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 150px, 600px;
+}
+#ireland {
+    background-image: url(irelandflag.gif), url(irelandmap.jpg);
+    background-position: right top, center;
+    background-repeat:no-repeat;
+    background-size: 150px, 600px;
+}
+#japan {
+    background-image: url(japanflag.gif), url(japanmap.jpg);
+    background-position: right top, center;
+    background-repeat: no-repeat;
+    background-size: 150px, 600px;
+}
+#austrailia {
+    background-image: url(austrailiaflag.gif), url(austrailiamap.jpg);
+    background-position: right top, center;
+    background-repeat: no-repeat;
+    background-size: 150px, 600px;
+}
