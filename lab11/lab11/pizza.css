@@ -7,6 +7,10 @@ header {
 body {
     width:600px;
  box-shadow: 0px 0px 50px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
     
     
 }
@@ -15,11 +19,12 @@ nav {
     font-size: 30pt;
     text-align: left;
     float: left;
-
+    
 }
 main {
     background-color: darksalmon;
     margin-left: 170px;
+     padding: 15px;
     
     
 }
@@ -41,9 +46,9 @@ img{
 }
 footer {
         margin-left: 170px;
-
     background-color: coral;
     font-size: 40px;
+    padding: 10px;
 }
 div {
     background-color: burlywood;
@@ -52,7 +57,7 @@ div {
 .menu {
     width: 150px;
     height:150px;
-
+    float:left;
 }
 
 
