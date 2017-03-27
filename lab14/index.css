@@ -1,0 +1,59 @@
+body {
+    background-color:azure
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50pt;
+    font-family: 'Fascinate Inline', cursive;
+    background-image: url(corn1.jpg);
+}
+h2 {
+    text-align: center;
+    font-size: 30pt;
+}
+img {
+    width: 500px;
+    height: 400px;
+}
+.maze {
+    font-size: 25pt;
+    
+}
+.farm
+{
+    font-size: 20pt;
+}
+nav {
+    font-size:30pt;
+    text-align: center;
+}
+.home{
+    width: 1000;
+    height: 500;
+    margin-left: 150;
+    border: 20px;
+    border-style:double;
+    margin-top: 30;
+    
+    
+}
+h1 a {
+    color: black;
+}
+nav a {
+    color: black;
+}
+
+@media (max-width: 25em){
+    body{
+        position: static;
+    }
+    h1{
+        font-size: 25pt;
+    }
+    h2{
+        font-size: 20pt;
+    }
+}

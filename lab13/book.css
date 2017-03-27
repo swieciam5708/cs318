@@ -1,0 +1,60 @@
+body {
+    box-sizing: border-box;
+}
+header {
+    margin: 15px;
+    padding: 15px;
+    background-color:cornflowerblue;
+    font-family: sans-serif;
+}
+ul { 
+list-style: none;
+    padding-left: 0px;
+    font-family: sans-serif;
+}
+nav { 
+background-color: lightcoral;
+margin: 0px;
+float: left;
+width: 12em;
+height: 1399em
+}
+main {
+ background-color: lightyellow;
+    margin: 0px;
+    left: 12em;
+    position: absolute;   
+    font-family: serif;
+}
+.quote {
+    float: right;
+    padding: 30px;
+    margin: 30px;
+    font-size: 25pt;
+    color: lightcoral;
+    font-family: cursive; 
+    width:12em; 
+}
+.poem {
+    white-space: pre-wrap;
+}
+@media (max-width:24em) {
+    main {
+        position: static;
+        clear:both; }
+    nav {
+        width: 100%;
+        height: auto;
+    }
+      
+    li {
+        display: inline;
+    }
+    span {
+        display: none;
+    } 
+    .quote {
+        font-size: 15pt;
+    }
+   
+}
