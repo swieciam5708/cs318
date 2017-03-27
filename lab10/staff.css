@@ -1,0 +1,42 @@
+#girl1{
+    background-image: url(girl2.jpg);
+    
+   
+}
+#guy1{
+    background-image: url(guy.jpg);
+   
+}
+#girl2{
+    background-image: url(girl3.JPG);
+}
+#guy2{
+    background-image: url(Ian.jpg);
+}
+
+.photo{
+    display: inline-block;
+     width: 200px;
+    height:200px;
+    box-shadow: 10px 10px 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 80px;
+    position: relative;
+}
+.photo:hover{
+    box-shadow: 10px 10px 20px;
+    top: 20px;
+    left: 20px;
+}
+.name{
+    font-size: 35px;
+    font:sans-serif;
+    color:blueviolet;
+    text-shadow: 10px 10px 50px black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:0;
+    text-align: center
+}
