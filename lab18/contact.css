@@ -1,0 +1,19 @@
+form {
+    background-color: lightgray;
+    text-align: right;
+    width: 325px;
+    padding: 10px;
+    
+    border-radius: 15px;
+
+}
+input, textarea {
+ margin: 3px;
+ font-size: 15pt;
+}
+
+#send {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
