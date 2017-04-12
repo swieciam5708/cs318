@@ -1,0 +1,20 @@
+form{
+    background-color: lightpink;
+    height:400px;
+    float: left;
+    height:auto;
+    padding:10px;
+    border-radius:5%;
+    font-size: 15pt;
+}
+label{
+     clear:left;
+    float:left;
+     margin: 10px;   
+}
+input{
+     margin: 10px;
+}
+select{
+     margin: 10px;
+}

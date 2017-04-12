@@ -1,0 +1,24 @@
+form {
+    background-color: dodgerblue;
+    float: left;
+    width: 50%;
+    height: auto;
+    padding:10px;
+    border-radius:5%;
+    font-size: 15pt;
+    
+}
+label {
+    clear:left;
+    float:left;
+    width:30%;
+}
+input {
+    margin:5px;
+}
+#order {
+    padding: 5px;
+}
+select {
+    width: 200px;
+}

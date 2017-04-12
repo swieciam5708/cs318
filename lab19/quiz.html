@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head> <link rel="stylesheet" href="quiz.css"></head>
+<body>
+    
+    
+<form action="https://formspree.io/swieciam5708@uwec.edu"
+      method="POST"> 
+         <h1> Personality Test </h1>
+         <label for="date">1. Describe a perfect date </label>
+    <textarea name="personality" id="date" rows="5" cols="25"></textarea>
+              <br>
+         <label for="color">2. Pick your Favorite Color </label>
+             <select size="4">
+              <option value="pink"> Pink </option>
+              <option value="brown"> Brown </option>
+              <option value="blue"> Blue </option>
+              <option value="yellow"> Yellow </option>
+                 
+             </select>
+        
+         <br>
+         <label for="what">3. What's your Favorite Celebrity? (check all that apply) </label>
+             
+             <input type="checkbox" value="ryan">Ryan Gosling
+             <input type="checkbox" value="jen">Jennifer Lawrence <br>
+            <input type="checkbox" value="chan">Channing Tatum
+             <input type="checkbox" value="will">Will Ferell
+               <br>
+         <label for="beach"> 4. I like to go to the beach! True or False? </label>
+         <input type="radio" name="personality" id="beach">True
+        <input type="radio" name="personality" id="beach">False
+    <br>
+         <label for="rain"> 5. Fill in the blank: I like to ____ on rainy days </label>
+         <input type="text" name="rain" id="rain" min="0" max="3"> <br>
+        
+    <input type="submit" value="My personality is..." id="order" >   
+         
+
+</body>
+</html>
