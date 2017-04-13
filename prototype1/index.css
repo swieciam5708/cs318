@@ -11,6 +11,7 @@
 }
 #tabparent {
     margin-left: 800px;
+    top:0;
 }
 .tabbutton:focus {
     background-color: darkgrey;
@@ -18,8 +19,18 @@
 a {
     text-decoration: none;
     border-color: black;
+    color:black;
 }
 
 #title {
  font-size: 30pt;
+}
+#home {
+ margin-top: 75px;
+ margin-left: 320px;
+
+width:50%;
+    border-style: none;
+    box-shadow: 0px 0px 20px black;
+   
 }
