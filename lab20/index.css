@@ -1,0 +1,20 @@
+body {
+    background-image: url(numbers.jpg);
+}
+form {
+    color:fuchsia;
+    font-family: 'Orbitron', sans-serif;
+}
+#submit:hover{
+    margin: 50px;
+    
+}
+#number:hover {
+   margin:7px;
+}
+input {
+    font-size: 25pt;
+}
+#text {
+    font-size: 10pt
+}
