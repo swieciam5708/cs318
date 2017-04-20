@@ -21,7 +21,7 @@
 }
 
 
-#title {
+#title a {
  font-size: 30pt;
  text-decoration: none;
 color:black;
@@ -55,8 +55,9 @@ ol {
 #noelle {
     width:450px;
     height:320px; 
-    float:right;
     transform: rotate(90deg);
+    margin-top: 70px;
+    float: right;
 }
 #isabella {
     float:left;
