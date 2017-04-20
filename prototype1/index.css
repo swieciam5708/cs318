@@ -8,6 +8,9 @@
     cursor: pointer;
     text-align:center;
     font-size: 15pt;
+    text-decoration: none;
+    border-color: black;
+    color:black;
 }
 #tabparent {
     margin-left: 800px;
@@ -16,14 +19,13 @@
 .tabbutton:focus {
     background-color: darkgrey;
 }
-a {
-    text-decoration: none;
-    border-color: black;
-    color:black;
-}
+
 
 #title {
  font-size: 30pt;
+ text-decoration: none;
+color:black;
+  
 }
 #home {
  margin-top: 75px;
@@ -33,4 +35,55 @@ width:50%;
     border-style: none;
     box-shadow: 0px 0px 20px black;
    
+}
+
+.about {
+    width: 400px;
+    height:400px;
+    transform:rotate(90deg);
+}
+#shirt {
+    width:400px;
+    height:400px;
+} 
+
+ol {
+    list-style-type:none;
+    margin-left:500px;
+    
+}
+#noelle {
+    width:450px;
+    height:320px; 
+    float:right;
+    transform: rotate(90deg);
+}
+#isabella {
+    float:left;
+    width:320px;
+    height:450px;
+    bottom:20px;
+}
+#twitter {
+    width:100px;
+    height:100px;
+    
+   
+}
+#insta {
+    width:100px;
+    height:100px;
+    margin-left:560px;
+}
+h1 {
+    text-align: center;
+    
+}
+#halloween {
+    width:500px;
+    height:350px;
+    margin-left:430px;
+}
+table {
+    margin-left: 430px;
 }
