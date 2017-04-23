@@ -36,10 +36,14 @@ width:50%;
    
 }
 
+#first{
+    margin-left: 45px;
+}
 .about {
     width: 400px;
     height:400px;
     transform:rotate(90deg);
+
 }
 #shirt {
     width:400px;
@@ -89,8 +93,9 @@ h1 {
 
 }
 table {
-    margin-left: 400px;
-    font-size: 20pt;
+    margin-left:342px;
+    font-size: 25pt;
+    border-color: darkgray;
 }
 #quote2 {
     float:right;
