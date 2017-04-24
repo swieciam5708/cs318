@@ -28,8 +28,8 @@ color:black;
   
 }
 #home {
- margin-left: 320px;
-
+ margin:auto;
+ display: block;
 width:50%;
     border-style: none;
     box-shadow: 0px 0px 20px black;
@@ -37,7 +37,7 @@ width:50%;
 }
 
 #first{
-    margin-left: 45px;
+    margin:auto;
 }
 .about {
     width: 400px;
@@ -52,7 +52,7 @@ width:50%;
 
 ol {
     list-style-type:none;
-    margin-left:450px;
+    text-align: center;
     font-size: 20pt;
     
 }
@@ -89,32 +89,29 @@ h1 {
 #halloween {
     width:500px;
     height:350px;
-    margin-left:430px;
+    margin:auto;
+    display:block;
 
 }
 table {
-    margin-left:342px;
+    margin:auto;
     font-size: 25pt;
     border-color: darkgray;
 }
 #quote2 {
     float:right;
-    margin-top:150px;
-    margin-right:70px;
     font-size: 25pt;
  font-family: 'Shadows Into Light', cursive;
 }
 #quote1{
     float:left;
     font-size:25pt;
-    margin-top:100px;
     font-family: 'Shadows Into Light', cursive;
 }
 #quote3{
  float:left;
+    margin-left: 150px;
  font-size:25pt;
- margin-top:30px;
- margin-left:200px;
 font-family: 'Shadows Into Light', cursive;
  
 }
