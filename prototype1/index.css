@@ -119,6 +119,32 @@ font-family: 'Shadows Into Light', cursive;
     #tabparent{
     margin-left:0px;
     }
-    
+    #quote1 {
+        font-size: 15pt;
+    }
+    #quote2 {
+        font-size: 15pt;
+    }
+    #quote3 {
+        font-size: 15pt;
+    }
+    #home {
+        width:400px;
+    }
+    ol{
+        position: relative;
+        
+    }
+    #noelle {
+        float:none;
+        position: relative;
+    }
+    isabella {
+        float:none;
+        position:relative;
+    }
+    #twitter {
+        margin-left:250px
+    }
 }
 
