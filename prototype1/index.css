@@ -138,10 +138,13 @@ font-family: 'Shadows Into Light', cursive;
     #noelle {
         float:none;
         position: relative;
+        width:350px;
+        height:220px;
     }
     isabella {
         float:none;
         position:relative;
+
     }
     #twitter {
         margin-left:250px
