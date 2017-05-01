@@ -33,7 +33,7 @@ color:black;
 width:50%;
     border-style: none;
     box-shadow: 0px 0px 20px black;
-   
+   clear:both;
 }
 
 #first{
@@ -50,7 +50,7 @@ width:50%;
     height:400px;
 } 
 
-ol {
+#contact{
     list-style-type:none;
     text-align: center;
     font-size: 20pt;
@@ -71,15 +71,15 @@ ol {
 }
 #twitter {
     width:100px;
-    height:100px;
-    margin-left:600px;
-    
-   
+    height:100px;       
+   margin: auto;
+    display: block;
 }
 #insta {
     width:100px;
     height:100px;
-    margin-left:260px;
+    margin:auto;
+    display: block;
 }
 h1 {
     text-align: center;
@@ -89,13 +89,19 @@ h1 {
 #halloween {
     width:500px;
     height:350px;
-    margin:auto;
-    display:block;
+    margin: auto;
+    
 
+}
+#nbc {
+     width:500px;
+    height:350px;
+    
+     
 }
 table {
     margin:auto;
-    font-size: 25pt;
+    font-size: 22pt;
     border-color: darkgray;
 }
 #quote2 {
@@ -109,14 +115,20 @@ table {
     font-family: 'Shadows Into Light', cursive;
 }
 #quote3{
-    float:left;
-    margin-left: 150px;
+display: block;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
  font-size:25pt;
 font-family: 'Shadows Into Light', cursive;
 }
 #events {
     text-align: center;
     font-size: 15pt;
+}
+#jim {
+    float:right;
+    margin-top:0px;
 }
 @media (max-width:40em){
     #tabparent{
@@ -141,8 +153,6 @@ font-family: 'Shadows Into Light', cursive;
     #noelle {
         float:none;
         position: relative;
-        width:350px;
-        height:220px;
     }
     isabella {
         float:none;
@@ -151,6 +161,9 @@ font-family: 'Shadows Into Light', cursive;
     }
     #twitter {
         margin-left:250px
+    }
+    iframe {
+        display: none;
     }
 }
 
