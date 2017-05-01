@@ -109,8 +109,7 @@ table {
     font-family: 'Shadows Into Light', cursive;
 }
 #quote3{
- float:left;
-    margin-left: 150px;
+ margin-left: 450px;
  font-size:25pt;
 font-family: 'Shadows Into Light', cursive;
 }
@@ -130,6 +129,7 @@ font-family: 'Shadows Into Light', cursive;
     }
     #quote3 {
         font-size: 15pt;
+        float:right;
     }
     #home {
         width:400px;
