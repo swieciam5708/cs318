@@ -159,10 +159,13 @@ font-family: 'Shadows Into Light', cursive;
         position:relative;
 
     }
+    #contact {
+        text-align: right;
+    }
     #twitter {
         margin-left:250px
     }
-    iframe {
+  iframe {
         display: none;
     }
 }
