@@ -70,16 +70,21 @@ width:50%;
     bottom:20px;
 }
 #twitter {
-    width:100px;
-    height:100px;       
-   margin: auto;
-    display: block;
+    width:75px;       
+   margin:0;
+   display:inline-block;
+    float:left;
 }
 #insta {
-    width:100px;
-    height:100px;
-    margin:auto;
-    display: block;
+    width:75px;
+    margin:0;
+    display: inline-block;
+    float:left;
+}
+#icon {
+    width:100%;
+    text-align: center;
+    margin: auto;
 }
 h1 {
     text-align: center;
@@ -101,8 +106,9 @@ h1 {
 }
 table {
     margin:auto;
-    font-size: 22pt;
+    font-size: 17pt;
     border-color: darkgray;
+
 }
 #quote2 {
     float:right;
@@ -125,10 +131,23 @@ font-family: 'Shadows Into Light', cursive;
 #events {
     text-align: center;
     font-size: 15pt;
+    float:left;
+    width:35%;
+    padding-left:35px;
+    margin-left:35px;
 }
 #jim {
     float:right;
-    margin-top:0px;
+    width:25%;
+   padding:0;
+}
+#roof {
+    width:25%;
+    padding:0;
+    float:left;
+}
+figcaption {
+    text-align: center;
 }
 @media (max-width:40em){
     #tabparent{
