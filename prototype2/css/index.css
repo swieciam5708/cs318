@@ -127,26 +127,27 @@ table {
 #insta {
     width:75px;
     margin:auto;
-    display:block;
-    float:left;
+    display:inline-block;
+    
+    
 }
-#icon {
-    width:100%;
+#icon{
     text-align: center;
-    margin: auto;
 }
+
 
 #halloween {
     width:500px;
     height:350px;
     margin: auto;
+    display: inline-block;
     
 
 }
 #nbc {
      width:575px;
     height:350px;
-    
+    margin: auto;  
      
 }
 
