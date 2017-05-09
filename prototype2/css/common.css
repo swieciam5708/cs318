@@ -1,0 +1,71 @@
+.tabbutton {
+    display: inline-block;
+    background-color: lightgray;
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    cursor: pointer;
+    text-align:center;
+    font-size: 15pt;
+    text-decoration: none;
+    border-color: black;
+    color:black;
+}
+#tabparent {
+   text-align: center;
+    top:0;
+}
+.tabbutton:focus {
+    background-color: darkgrey;
+}
+h1 {
+    text-align: center;
+    font-size: 30pt;   
+}
+#title a {
+ font-size: 30pt;
+ text-decoration: none;
+color:black;
+  
+}
+
+
+@media (max-width:48em){
+    #tabparent{
+    margin-left:0px;
+    }
+    #quote1 {
+        font-size: 15pt;
+    }
+    #quote2 {
+        font-size: 15pt;
+    }
+    #quote3 {
+        font-size: 15pt;
+    }
+    #home {
+        width:400px;
+    }
+    ol{
+        position: relative;
+        
+    }
+    #noelle {
+        display: none;
+    }
+    #isabella {
+       display: none;
+
+    }
+    #contact {
+        text-align: right;
+    }
+    #twitter {
+        margin-left:250px
+    }
+  iframe {
+        display: none;
+    }
+}
+

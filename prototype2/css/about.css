@@ -1,0 +1,16 @@
+#first{
+    margin:auto;
+}
+.about {
+    width: 400px;
+    height:400px;
+    transform:rotate(90deg);
+
+}
+.aboutus {
+    font-size: 15pt;
+}
+#shirt {
+    width:400px;
+    height:400px;
+} 

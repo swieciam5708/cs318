@@ -1,0 +1,19 @@
+#contact{
+    list-style-type:none;
+    text-align: center;
+    font-size: 17pt;
+    
+}
+#noelle {
+    width:450px;
+    height:320px; 
+    transform: rotate(90deg);
+    margin-top: 66px;
+    float: right;
+}
+#isabella {
+    float:left;
+    width:320px;
+    height:450px;
+    bottom:20px;
+}

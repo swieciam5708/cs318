@@ -1,0 +1,25 @@
+table {
+    margin:auto;
+    font-size: 17pt;
+    border-color: darkgray;
+
+}
+
+#events {
+    text-align: center;
+    font-size: 15pt;
+    float:left;
+    width:35%;
+    padding-left:35px;
+    margin-left:35px;
+}
+#jim {
+    float:right;
+    width:25%;
+   padding:0;
+}
+#roof {
+    width:25%;
+    padding:0;
+    float:left;
+}
