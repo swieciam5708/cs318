@@ -1,13 +1,13 @@
 table {
     margin:auto;
-    font-size: 17pt;
+    font-size: 18pt;
     border-color: darkgray;
 
 }
 
 #events {
     text-align: center;
-    font-size: 15pt;
+    font-size: 18pt;
     float:left;
     width:35%;
     padding-left:35px;
@@ -15,11 +15,11 @@ table {
 }
 #jim {
     float:right;
-    width:25%;
+    width:27%;
    padding:0;
 }
 #roof {
-    width:25%;
+    width:27%;
     padding:0;
     float:left;
 }
