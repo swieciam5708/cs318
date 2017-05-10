@@ -42,7 +42,7 @@ color:black;
         font-size: 15pt;
     }
     #quote3 {
-        font-size: 15pt;
+        display:none;
     }
     #home {
         width:400px;
