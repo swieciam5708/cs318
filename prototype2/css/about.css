@@ -1,7 +1,4 @@
-#first{
-    margin:auto;
-    display: inline-block;
-}
+
 .about {
     width: 400px;
     height:400px;
@@ -18,3 +15,8 @@
     height:400px;
     margin: auto;
 } 
+#aboutimg {
+margin-left: auto;
+margin-right: auto;
+ text-align: center;
+}

@@ -30,3 +30,8 @@
 figcaption {
     text-align: center;
 }
+#followimg {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
