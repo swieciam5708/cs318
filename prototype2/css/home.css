@@ -31,15 +31,13 @@ color:cornflowerblue;
 @media (max-width:48em){
     
     #quote1 {
-        font-size: 15pt;
-        
+        font-size: 15pt;      
     }
     #quote2 {
         font-size: 15pt;
-    
     }
     #quote3 {
        float: left;
-    }
-   
+       font-size: 15pt;
+    } 
 }

@@ -10,21 +10,16 @@
 #icon{
     text-align: center;
 }
-
-
 #halloween {
     width:500px;
     height:350px;
     margin: auto;
-    display: inline-block;
-    
-
+    display: inline-block; 
 }
 #nbc {
      width:575px;
     height:350px;
-    margin: auto;  
-     
+    margin: auto;      
 }
 
 figcaption {
@@ -35,3 +30,4 @@ figcaption {
     margin-right: auto;
     text-align: center;
 }
+

@@ -2,9 +2,7 @@ table {
     margin:auto;
     font-size: 18pt;
     border-color: darkgray;
-
 }
-
 #events {
     text-align: center;
     font-size: 18pt;
@@ -22,4 +20,15 @@ table {
     width:27%;
     padding:0;
     float:left;
+}
+@media (max-width:48em){
+    #meetings {
+        font-size: 15pt;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table {
+        float:right;
+        font-size: 15pt;   
+    }
 }
