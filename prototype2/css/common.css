@@ -24,7 +24,7 @@ h1 {
     font-size: 30pt;   
 }
 #logo {
- width:250px; 
+   width:250px; 
 }
 
 
@@ -32,9 +32,7 @@ h1 {
     #tabparent{
     margin-left:0px;
     }
-    #home {
-        width:500px;
-    }
+
     ol{
         position: relative;   
     }
@@ -50,8 +48,9 @@ h1 {
     #twitter {
         margin-left:250px
     }
-  iframe {
+    iframe {
         display: none;
-    }  
+    } 
+   
 }
 

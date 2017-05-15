@@ -1,8 +1,8 @@
 
 #home {
- margin:auto;
- display: block;
-width:50%;
+    margin:auto;
+    display: block;
+    width:575px;
     border-style: none;
     box-shadow: 0px 0px 20px black;
    clear:both;
@@ -10,23 +10,23 @@ width:50%;
 #quote2 {
     float:right;
     font-size: 25pt;
- font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
     color:	#FF00FF;
 }
 #quote1{
     float:left;
     font-size:25pt;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
     color:	#FF00FF;
 }
 #quote3{
-display: block;
+    display: block;
     width:300px;
     margin-left: auto;
     margin-right: auto;
- font-size:25pt;
-font-family: 'Shadows Into Light', cursive;
-color:cornflowerblue;
+    font-size:25pt;
+    font-family: 'Shadows Into Light Two', cursive;
+    color:cornflowerblue;
 }
 @media (max-width:48em){
     
@@ -40,4 +40,7 @@ color:cornflowerblue;
        float: left;
        font-size: 15pt;
     } 
+    #home {
+        width:350px;
+    }
 }

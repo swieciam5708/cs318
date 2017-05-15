@@ -12,14 +12,12 @@
 }
 #halloween {
     width:500px;
-    height:350px;
     margin: auto;
     display: inline-block; 
 }
 #nbc {
      width:575px;
-    height:350px;
-    margin: auto;      
+     margin: auto;      
 }
 
 figcaption {
@@ -31,3 +29,11 @@ figcaption {
     text-align: center;
 }
 
+@media (max-width:48em){
+    #halloween {
+        width:350px;
+    }
+    #nbc {
+        width:350px;
+    }
+}
