@@ -1,0 +1,21 @@
+
+.about {
+    width: 400px;
+    height:400px;
+    transform:rotate(90deg);
+    margin: auto;
+}
+.aboutus {
+    font-size: 15pt;
+    text-align: center;
+}
+#shirt {
+    width:400px;
+    height:400px;
+    margin: auto;
+} 
+#aboutimg {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

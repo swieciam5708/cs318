@@ -1,0 +1,39 @@
+#twitter {
+    width:75px;       
+   margin:auto;   
+}
+#insta {
+    width:75px;
+    margin:auto;
+    display:inline-block;    
+}
+#icon{
+    text-align: center;
+}
+#halloween {
+    width:500px;
+    margin: auto;
+    display: inline-block; 
+}
+#nbc {
+     width:575px;
+     margin: auto;      
+}
+
+figcaption {
+    text-align: center;
+}
+#followimg {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media (max-width:48em){
+    #halloween {
+        width:350px;
+    }
+    #nbc {
+        width:350px;
+    }
+}

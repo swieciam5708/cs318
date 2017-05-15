@@ -1,0 +1,46 @@
+
+#home {
+    margin:auto;
+    display: block;
+    width:575px;
+    border-style: none;
+    box-shadow: 0px 0px 20px black;
+   clear:both;
+}
+#quote2 {
+    float:right;
+    font-size: 25pt;
+    font-family: 'Shadows Into Light Two', cursive;
+    color:	#FF00FF;
+}
+#quote1{
+    float:left;
+    font-size:25pt;
+    font-family: 'Shadows Into Light Two', cursive;
+    color:	#FF00FF;
+}
+#quote3{
+    display: block;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25pt;
+    font-family: 'Shadows Into Light Two', cursive;
+    color:cornflowerblue;
+}
+@media (max-width:48em){
+    
+    #quote1 {
+        font-size: 15pt;      
+    }
+    #quote2 {
+        font-size: 15pt;
+    }
+    #quote3 {
+       float: left;
+       font-size: 15pt;
+    } 
+    #home {
+        width:350px;
+    }
+}

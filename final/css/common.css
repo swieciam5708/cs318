@@ -1,0 +1,56 @@
+.tabbutton {
+    display: inline-block;
+    background-color: lightgray;
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    cursor: pointer;
+    text-align:center;
+    font-size: 15pt;
+    text-decoration: none;
+    border:none;
+    color:black;
+}
+#tabparent {
+   text-align: center;
+    top:0;
+}
+.tabbutton:focus {
+    background-color: darkgrey;
+}
+h1 {
+    text-align: center;
+    font-size: 30pt;   
+}
+#logo {
+   width:250px; 
+}
+
+
+@media (max-width:48em){
+    #tabparent{
+    margin-left:0px;
+    }
+
+    ol{
+        position: relative;   
+    }
+    #noelle {
+        display: none;
+    }
+    #isabella {
+       display: none;
+    }
+    #contact {
+        text-align: right;
+    }
+    #twitter {
+        margin-left:250px
+    }
+    iframe {
+        display: none;
+    } 
+   
+}
+
